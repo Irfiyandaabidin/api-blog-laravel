@@ -17,8 +17,8 @@ return new class extends Migration
             $table->string('email')->unique();
             $table->string('password');
             $table->string('picture')->nullable();
-            $table->string('social_id')->nullabel();
-            $table->string('social_type')->nullabel();
+            $table->string('social_id')->nullable();
+            $table->string('social_type')->nullable();
             $table->timestamps();
         });
     }
